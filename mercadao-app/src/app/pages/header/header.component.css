@@ -1,0 +1,10 @@
+.navbar {
+background-color: rgb(118, 119, 118);
+font-weight: bold;
+margin-bottom: 1em;
+}
+
+.btn{
+    color: black;
+    font-weight: bold;
+}

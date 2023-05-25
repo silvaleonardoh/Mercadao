@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+}
+
+.cardPrincipal {
+    display: inline-block;
+}
+
+img {
+    display: block;
+}
+
+.cardPrincipal .card-body{
+    margin-bottom: 1em;
+}
+
+.cardPrincipal .card-body .card-title {
+    width: fit-content;
+}

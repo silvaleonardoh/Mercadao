@@ -1,17 +1,17 @@
-import { PaginaHomeComponent } from './pagina-home/pagina-home.component';
+import { HomeComponent } from './pages/home/home.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PaginaEstatisticasComponent } from './pagina-estatisticas/pagina-estatisticas.component';
+import { EstatisticasComponent } from './pages/estatisticas/estatisticas.component';
 
 const routes: Routes = [
     {
-        path: '', component: PaginaHomeComponent
+        path: '', component: HomeComponent
     },
     {
-        path: 'estatisticas', component: PaginaEstatisticasComponent
+        path: 'estatisticas', component: EstatisticasComponent
     },
     {
-        path: '', redirectTo: '/pagina-home', pathMatch: 'full'
+        path: '', redirectTo: '/home', pathMatch: 'full'
     }
 ];
 

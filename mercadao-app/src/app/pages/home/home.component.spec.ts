@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PaginaHomeComponent } from './pagina-home.component';
+import { PaginaHomeComponent } from './home.component';
 
 describe('PaginaHomeComponent', () => {
   let component: PaginaHomeComponent;
