@@ -1,22 +1,29 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './pages/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
+import { SobreComponent } from './pages/sobre/sobre.component';
 import { EstatisticasComponent } from './pages/estatisticas/estatisticas.component';
-import { AppRoutingModule } from './app-routing.module';
+import { TiComponent } from './pages/estatisticas/areas/ti/ti.component';
+import { RouterModule } from '@angular/router';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     HomeComponent,
-    EstatisticasComponent
+    SobreComponent,
+    HeaderComponent,
+    EstatisticasComponent,
+    TiComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
