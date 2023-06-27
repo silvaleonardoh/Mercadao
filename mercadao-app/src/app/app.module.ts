@@ -2,13 +2,15 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
+import { BreadcrumbModule } from 'primeng/breadcrumb';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './pages/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { SobreComponent } from './pages/sobre/sobre.component';
 import { EstatisticasComponent } from './pages/estatisticas/estatisticas.component';
-import { TiComponent } from './pages/estatisticas/areas/ti/ti.component';
+import { TiComponent } from './pages/estatisticas/ti/ti.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { TiComponent } from './pages/estatisticas/areas/ti/ti.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
+    RouterModule,
+    BreadcrumbModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

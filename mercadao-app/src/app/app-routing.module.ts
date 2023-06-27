@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { EstatisticasComponent } from './pages/estatisticas/estatisticas.component';
 import { SobreComponent } from './pages/sobre/sobre.component';
-import { TiComponent } from './pages/estatisticas/areas/ti/ti.component';
+import { TiComponent } from './pages/estatisticas/ti/ti.component';
 
 const routes: Routes = [
     {
