@@ -1,9 +1,16 @@
 .navbar {
 background-color: rgb(118, 119, 118);
 font-weight: bold;
-display: block;
 }
-
+.navbar-brand {
+    margin-right: 4em;
+}
+.breadcrumb {
+    margin: 0;
+}
+.container-fluid {
+    align-items: center;
+}
 .btn{
     color: black;
     font-weight: bold;
